@@ -46,7 +46,7 @@ const convertRuntimeToMinutes = (runtimeStr) => {
 class AdultDVDEmpireScraper {
     baseUrl;
     headers;
-    constructor(baseUrl = 'https://www.adultempire.com') {
+    constructor(baseUrl = 'https://bypass.rifatahmedsajeeb.workers.dev/?url=https://www.adultempire.com') {
         this.baseUrl = baseUrl;
         this.headers = {
             'User-Agent': getRandomUserAgent(),
