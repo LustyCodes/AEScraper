@@ -46,7 +46,7 @@ const convertRuntimeToMinutes = (runtimeStr) => {
 class AdultDVDEmpireScraper {
     baseUrl;
     headers;
-    constructor(baseUrl = 'https://adultempire.lustycodes.workers.dev/?url=https://www.adultempire.com') {
+    constructor(baseUrl = 'https://ae-tunnel-vercel-61fu.vercel.app/proxy?url=https://www.adultempire.com') {
         this.baseUrl = baseUrl;
         this.headers = {
             'User-Agent': getRandomUserAgent(),
